@@ -1,0 +1,97 @@
+@media only screen and (max-width: 700px) {
+    .menu,article,.right {
+      width: 100%;
+    }
+  }
+
+* {
+    box-sizing: border-box;
+  }
+  header {
+    background-color:rgb(91, 77, 168);
+    padding:15px;
+    font-size: 20px;
+    text-align: center;
+   
+    color: white;
+  }
+  h1{
+    color: white;
+  }
+  h4{
+    color: white;
+  }
+  h2{
+    direction: rtl;
+    color: blue;
+  }
+  h3{
+
+    direction: rtl;
+    color: cadetblue;
+  }
+ 
+  footer{
+    background-color:rgb(91, 77, 168);
+    text-align:center;
+    color: white;
+    padding:10px;
+    margin-top:7px;
+  }
+  .menu {
+    width: 100%;
+    text-align: center;
+    
+    
+  }
+  .menu a{
+    margin-right: 15px;
+    color: white;
+  }
+  .menu a:hover {
+    color: rgb(232, 68, 8);
+    background-color: yellow;
+  }
+  .sec {
+    float: left;
+    width: 20%;
+    text-align: center;
+  }
+  
+  .sec
+   a {
+    background-color: rgb(91, 77, 168);
+    margin-top: 7px;
+    display: block;
+    width: 100%;
+    color: black;
+  }
+  
+ nav {
+    background-color:rgb(91, 77, 168);
+    padding: 9px;
+    text-align: center;
+    font-size: 25px;
+    color: white;
+  }
+  
+
+  .right a {
+    margin-top: 50px;
+    display: block;
+    width: 100%;
+    color: black;
+  }
+  .right {
+    background-color: rgb(91, 77, 168);
+    float: left;
+    width: 20%;
+    margin-top: 25px;
+    text-align: center;
+  }
+  article {
+    float: left;
+    width: 60%;
+    padding: 0 20px;
+  }
+  
